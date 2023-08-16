@@ -1,0 +1,40 @@
+.highlights__list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hightlight__image{
+    background-color: $color-black-transparent;
+    width: 200px;
+    height: 100px;
+}
+
+.details{
+    background-color: $color-white-transparent;
+    width: 200px;
+    height: 40px;
+}
+
+.data{
+    text-align: center;
+
+    .title__data,
+    .value{
+        font-size: 14px;
+    }
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #444444;
+}

@@ -1,0 +1,43 @@
+.hero{
+    margin: 150px 0;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.buttons{
+    width: 60%;
+    background-color: $color-black-transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    .post{
+        background-color: $color-white;
+        color: $color-black;
+    }
+
+}
+
+.slogan{
+    padding: 26px;
+    width: 40%;
+    background-color: $color-white-transparent;
+
+    h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .slogan__decoration{
+        color: $color-primary;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+
+
+
