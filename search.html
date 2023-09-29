@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class="search-page">
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" class="link__logo"><span class="logo__first__part">Script</span><span class="logo__second__part">State</span></a>
+            </div>
+
+            <div class="nav__bar">
+                <ul class="links">
+                    <li><a class="link" href="./index.html">Sobre nosotros</a></li>
+                    <li><a class="link" href="#modal__form">Publicar</a></li>
+                    <li><a class="link" href="./search.html">Buscar</a></li> 
+                    <li><a class="link" href="#modal__form">Ingresar</a></li>
+                    <li><a class="link" href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-search">
+
+        <section class="form-section">
+            
+            <div class="container">
+                <form class="form__search" action="">
+                    <fieldset class="form__search__container">
+                        <label class="text__input__search" for="type_property">
+                            tipo
+                            <select class="input__search" name="type_property" id="">
+                                <option value="house">casa</option>
+                                <option value="apartment">apartamento</option>
+                                <option value="shop">local</option>
+                                <option value="building">edificio</option>
+                                <option value="farm">finca</option>
+                            </select>
+                        </label>
+
+                        <label class="text__input__search" for="status__property">
+                            estado
+                            <select class="input__search" name="status__property" id="">
+                                <option value="new">nuevo</option>
+                                <option value="used">usado</option>
+                                <option value="rent">arriendo</option>
+                            </select>
+                        </label>
+
+                        <label class="text__input__search" for="">
+                            ubicación
+                            <input class="input__search" type="text" name="place__property" id="">
+                        </label>
+
+                        <label class="text__input__search">
+                            precio
+                            <div class="inputs--range_value">
+                                <input class="input__search input__ranges" type="min__value" placeholder="min">
+                                <input class="input__search input__ranges" type="max__value" placeholder="max">
+                            </div>
+                        </label>
+
+                        <button class="principal__button" type="submit">Buscar</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="animation__image">
+                <img src="./img/search__animation__image.png" alt="" width="100%">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <ul class="information__contact">
+                <li class="contact">
+                    <h3>Contactanos</h3>
+                    <ul class="data__list__footer">
+                        <li class="contact__info">Linea nacional: 01-800-930940</li>
+                        <li class="contact__info">WhatsApp: 350 3299742</li>
+                        <li class="contact__info">Correo: atencionalcliente@scriptstate.com</li>
+                    </ul>
+                </li>
+
+                <li class="address">
+                    <h3>Oficinas</h3>
+                    <ul  class="data__list__footer">
+                        <li>Bogotá: calle 128-51 piso 2</li>
+                        <li>Medellín: </li>
+                        <li>Cali: </li>
+                    </ul>
+                </li>
+                
+                <li class="legal">
+                    <h3>Legal</h3>
+                    <ul  class="data__list__footer">
+                        <li><a href="">Politica de tratamiento de datos</a></li>
+                        <li><a href="">Terminos y condiciones</a></li>
+                        <li><a href="">Aviso de privacidad</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <div class="logo">
+                <a href="index.html" class="link__logo"><span class="logo__first__part">Script</span><span class="logo__second__part">State</span></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

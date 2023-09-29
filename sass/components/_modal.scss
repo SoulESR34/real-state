@@ -1,22 +1,18 @@
 .modal{
     background-color: $color-black-transparent;
-
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     pointer-events: painted;
 
+    position: fixed;
+    z-index: 1;
     display: none;
 }
 
 .modal:target{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form__login{
